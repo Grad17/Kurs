@@ -34,8 +34,8 @@ public class Main {
     }
 
     private static void averageSalary() {
-        int sum = countAllMonthSalary();
-        int average = sum / EMPLOYEES.length;
+        double sum = countAllMonthSalary();
+        double average = sum / EMPLOYEES.length;
         System.out.println("Средняя зарплата: " + average);
     }
 
