@@ -10,8 +10,7 @@ public class Employee {
         this.fullName = fullName;
         this.department = department;
         this.salary = salary;
-        this.id = getCounterId();
-        counterId++;
+        this.id = counterId++;
     }
 
     public String getFullName() {
@@ -36,10 +35,6 @@ public class Employee {
 
     public int getId() {
         return id;
-    }
-
-    public static int getCounterId() {
-        return counterId;
     }
 
     @Override
